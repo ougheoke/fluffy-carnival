@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+ <title>Cool Name Facts</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/style.css">
+</head>
+  
+<div class="container-fluid">
+
+<!-- navbar content -->
+  <nav class="navbar navbar-custom navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Omonegho Ugheoke</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ougheoke/fluffy-carnival.git">My GitHub REPO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./styles/style.css">My Styles Sheet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- spirit animal information card -->
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">About Spirit Animals</h4>
+          <p class="card-text">In certain spiritual traditions or cultures, a spirit animal refers to a spirit which helps guide 
+            or protect a person on a journey and whose characteristics that person shares or embodies. It is also metaphor, 
+            often humorous, for someone or something a person relates to or admires. 
+            </p>
+          <a href="https://www.dictionary.com/e/slang/spirit-animal/" class="card-link">More on Spirit Animals</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- cool name facts card -->
+    <div class="col-sm-4 offset-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Cool Name Facts</h4>
+          <p class="card-text">Wanna see some cool facts?</p>
+          
+          <label for="userName" class="form-label">Enter your first name below!</label>
+          <input type="text" id="userName" class="form-control" name="userName">
+              
+          <button id="submit" class="btn btn-dark">Submit</button>
+
+          <br>
+
+          <span id="coolNameFactsOutput"> 
+
+          </span>
+        
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+</div>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./scripts/script.js"></script>
+
+</html>
